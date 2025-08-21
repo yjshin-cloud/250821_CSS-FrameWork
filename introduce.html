@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>클라우드 엔지니어 이력서</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="p-4 text-center">
+      <div class="container">
+        <h1>클라우드 엔지니어</h1>
+        <p class="lead">새로운 가치를 창출하는 클라우드 솔루션 전문가</p>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <section id="about" class="mb-5">
+        <h2 class="text-center mb-4">자기소개</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img
+              src="profile.jpg"
+              alt="프로필 사진"
+              class="img-fluid rounded-circle"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="col-md-8">
+            <p>
+              안녕하세요. 저는 클라우드 기술을 통해 효율적이고 안정적인 시스템을
+              구축하는 것을 좋아하는 클라우드 엔지니어입니다. AWS, Azure, GCP 등
+              다양한 클라우드 환경에서 인프라 구축 및 운영 경험을 보유하고
+              있으며, 특히 DevOps, CI/CD, IaC(Infrastructure as Code)에 관심이
+              많습니다. 새로운 기술을 배우고 적용하는 것에 적극적이며, 동료들과
+              협력하여 문제를 해결하는 것을 즐깁니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="mb-5">
+        <h2 class="text-center mb-4">기술 스택</h2>
+        <div class="row text-center g-3">
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-card p-4 rounded shadow">
+              <i class="fa-brands fa-aws fa-3x mb-3"></i>
+              <h5>AWS</h5>
+              <p>EC2, S3, Lambda, VPC, RDS</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-card p-4 rounded shadow">
+              <i class="fa-brands fa-docker fa-3x mb-3"></i>
+              <h5>Docker & Kubernetes</h5>
+              <p>컨테이너 기반 배포 및 오케스트레이션</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-card p-4 rounded shadow">
+              <i class="fa-brands fa-github fa-3x mb-3"></i>
+              <h5>DevOps & CI/CD</h5>
+              <p>Jenkins, GitHub Actions</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-card p-4 rounded shadow">
+              <i class="fa-solid fa-code fa-3x mb-3"></i>
+              <h5>IaC</h5>
+              <p>Terraform, CloudFormation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="mb-5">
+        <h2 class="text-center mb-4">프로젝트 경험</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">자동화된 AWS 인프라 구축 프로젝트</h5>
+                <p class="card-text">
+                  Terraform을 활용하여 웹 서비스에 필요한 EC2, S3, RDS 등의
+                  인프라를 자동으로 배포하고 관리했습니다.
+                </p>
+                <span class="badge bg-primary">Terraform</span>
+                <span class="badge bg-secondary">AWS</span>
+                <span class="badge bg-info">CI/CD</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Docker 기반의 CI/CD 파이프라인 구축</h5>
+                <p class="card-text">
+                  Jenkins와 Docker를 이용해 개발부터 배포까지의 과정을
+                  자동화하여, 배포 시간을 단축하고 안정성을 높였습니다.
+                </p>
+                <span class="badge bg-primary">Docker</span>
+                <span class="badge bg-secondary">Jenkins</span>
+                <span class="badge bg-info">CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mb-5">
+        <h2 class="text-center mb-4">연락처</h2>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-4">
+            <a
+              href="mailto:your.email@example.com"
+              class="contact-link d-block p-3 rounded"
+            >
+              <i class="fa-solid fa-envelope fa-2x mb-2"></i>
+              <h5>이메일</h5>
+              <p>your.email@example.com</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://github.com/your_github"
+              target="_blank"
+              class="contact-link d-block p-3 rounded"
+            >
+              <i class="fa-brands fa-github fa-2x mb-2"></i>
+              <h5>GitHub</h5>
+              <p>github.com/your_github</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-4 mt-auto">
+      <p>&copy; 2025. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

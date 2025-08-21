@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Framework</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <p>
+      style 태그나 .css 파일 같은 곳에 선택자, css 프로퍼티를 정의 -> 전형적으로
+      쓰는 것들이 있다
+    </p>
+    <p>비슷한 니즈에 대한 패턴화 -> 컴포넌트 -> 프레임워크/디자인시스템</p>
+    <p><a href="https://getbootstrap.com/">https://getbootstrap.com/</a></p>
+    <p>
+      1. reset.css, normalize.css -> html에서 지원하는 건 디자인적으로 그렇게
+      바람직하지 않음
+      <ul>
+        <li>기본 설정에는 body에 마진과 패딩이 있음 -> 계산해줄 바에야 0으로 만든다</li>
+        <li>box-sizing -> 기본값(content) -> 패딩과 border 추가하면 그만큼 사이즈가 커짐 -> border</li>
+      </ul>
+      2. class 어차피 이름이 뻔함. container, row, col, flex... / 전형적인 디자인 요소들에 대해서 이미 선택자로 정해놓고 그것에 맞는 디자인까지 미리 작성해놓습니다.
+      <div class="container bg-primary d-flex">
+        <!-- 자동으로 왼쪽 오른쪽에 마진을 생성해주는 옵션을 달아줘요 -->
+        내용물입니다
+        <div>아이템</div>
+        <div>아이템</div>
+        <div>아이템</div>
+        <div>아이템</div>
+      </div>
+    </p>
+  </body>
+</html>
